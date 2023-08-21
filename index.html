@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Lập trình Mobile</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox-theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="js/modernizr.custom.js"></script>
+
+    <!-- <script>
+        const openLink = (txt) => {
+            // github
+            const id = window.location.search.replace('?', '');
+            // local
+            //const id = window.location.search.replace('?id=', '');
+            if (txt == 'decuong') {
+                const link = `https://canvas.dntu.edu.vn/courses/${id}/pages/de-cuong`
+                window.open(link, "_blank");
+            }
+            else if (txt == 'teams') {
+                if (id == 112)
+                    const link = `https://teams.microsoft.com/l/team/19%3aLE4YfLPTnt4k4m-wIUMAtXjYCu1aaGJlAT1OF-RqBwo1%40thread.tacv2/conversations?groupId=952247fb-6c72-4489-a76a-349dc0029709&tenantId=6e0182cd-b36b-4286-b337-e3811b35f106`
+                if (id == 113)
+                    const link = `https://teams.microsoft.com/l/team/19%3aHQxk9wyudcZ_uo8X2t2fz21jx7O0Ku1tMap-dua553I1%40thread.tacv2/conversations?groupId=134264b1-d16d-496d-9a4e-751a49678d0c&tenantId=6e0182cd-b36b-4286-b337-e3811b35f106`
+                if (id == 114)
+                    const link = `https://teams.microsoft.com/l/team/19%3aTt3eXXdFY4zym6_mQvD44WrZDEedp4_H9atYz_AahZM1%40thread.tacv2/conversations?groupId=99379303-256a-4313-a4c3-d2bd1c27d83c&tenantId=6e0182cd-b36b-4286-b337-e3811b35f106`
+                window.open(link, "_blank");
+            }
+            else {
+                const link = `https://canvas.dntu.edu.vn/courses/${id}/${txt}`
+                window.open(link, "_blank");
+            }
+
+        }
+    </script> -->
+
+    <script>
+
+        const openLink = (txt) => {
+            // github
+            const id = window.location.search.replace('?', '');
+            // local
+            // id = window.location.search.replace('?id=', '');
+            // if (txt == 'decuong') {
+            //     const link = `https://canvas.dntu.edu.vn/courses/${id}/pages/de-cuong`
+            //     window.open(link, "_blank");
+            // }
+            if (txt == 'teams') {
+                if (id == 2417) { var link = `https://teams.microsoft.com/l/team/19%3apIj3WpWqItHgBCE6lzv5rugSnds-K0fsvWewlBLf78U1%40thread.tacv2/conversations?groupId=bab32310-731b-4c6f-9721-caedcbc316de&tenantId=6e0182cd-b36b-4286-b337-e3811b35f106` }
+                if (id == 2418) { var link = `https://teams.microsoft.com/l/team/19%3ank1kfe0wro-tQd_jbkh--XBEWMj7qN7iXKT6X853Wo81%40thread.tacv2/conversations?groupId=0d9bfe85-96c0-457f-b9e5-f4ad09ecfe7c&tenantId=6e0182cd-b36b-4286-b337-e3811b35f106` }
+                if (id == 2419) { var link = `https://teams.microsoft.com/l/team/19%3aQW1T_NTviYuorTY2IegJ72k1AA3dn3AAqne50o0ZxQ81%40thread.tacv2/conversations?groupId=8236a5d3-94e2-4b8e-9f97-313d7e019927&tenantId=6e0182cd-b36b-4286-b337-e3811b35f106` }
+                if (id == 2420) { var link = `https://teams.microsoft.com/l/team/19%3au4M4b0L1plYdnm3XkVfmc8oGjjazFCM-y6-Oqm_TzYA1%40thread.tacv2/conversations?groupId=9a6db721-19e9-41d5-b5e4-43becf8d7a53&tenantId=6e0182cd-b36b-4286-b337-e3811b35f106` }
+                window.open(link, "_blank");
+            }
+            else {
+                const link = `https://canvas.dntu.edu.vn/courses/${id}/${txt}`
+                window.open(link, "_blank");
+            }
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <a href="#header" id="back-to-top" class="top"><i class="fa fa-chevron-up"></i></a>
+    <!-- HHHHHHHHHHHHHHHHHH        Preloader          HHHHHHHHHHHHHHHH -->
+    <!-- <div id="preloader"></div> -->
+    <!-- HHHHHHHHHHHHHHHHHH        Header          HHHHHHHHHHHHHHHH -->
+    <section id="header" class="header">
+        <div class="top-bar hidden">
+            <div class="container">
+                <div class="navigation" id="navigation-scroll">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-3">
+                            <a href="index.html"><span id="logo">Lập
+                                    trình <strong class="strong">Mobile</strong></span></a>
+                        </div>
+                        <div class="col-md-1 col-xs-2">
+                            <p class="nav-button">
+                                <button id="trigger-overlay" type="button">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                            </p>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.navigation -->
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/.top-bar-->
+
+        <div class="container">
+            <div class="starting">
+                <div class="row">
+                    <div class="col-md-6 col-xs-3">
+                        <img src="img/phone.png" alt="" class="wow flipInY animated animated">
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="banner-text">
+                            <h2 class="animation-box wow bounceIn animated">Chào mừng đến lớp học
+                                <br><br>
+                                <strong class="strong">Lập trình Mobile</strong>
+                            </h2>
+                            <p>
+                                Lập trình phần mềm cho các thiết bị di động.
+                                <br>
+                                Framework sử dụng: React Native, Node.js, Expo...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank"
+                                class="btn btn-download wow animated fadeInLeft">
+                                <i class="fa fa-android pull-left"></i>
+                                <strong>Get it on</strong>
+                                <br />Google Play </a>
+                            <a href="https://apps.apple.com/app/apple-store/id982107779" target="_blank"
+                                class="btn btn-download wow animated fadeInRight">
+                                <i class="fa fa-apple pull-left"></i>
+                                <strong>Get it on</strong>
+                                <br />App store </a>
+                        </div> <!-- /.banner-text -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.starting -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /#header -->
+
+
+    <!-- HHHHHHHHHHHHHHHHHH        Speciality         HHHHHHHHHHHHHHHH -->
+    <div id="speciality" class="wrapper">
+        <div class="container">
+            <h2 class="animation-box wow bounceIn animated">NỘI DUNG</h2>
+            <div class="virticle-line"></div>
+            <div class="circle"></div>
+            <div class="row">
+                <!-- Đề cương -->
+
+                <a href="#" onclick="openLink('pages/de-cuong');">
+                    <div class="col-sm-4 wow animated fadeInLeft">
+                        <div class="special-icon">
+                            <i class="fa fa-file-text-o fa-5x"></i>
+                        </div>
+                        <h3>Đề cương</h3>
+                        <!-- <p>
+
+                        </p> -->
+                    </div>
+                </a>
+                <!-- Files -->
+                <a href="#" onclick="openLink('pages/bai-giang');">
+                    <div class="col-sm-4 animation-box wow bounceIn animated">
+                        <div class="special-icon">
+                            <i class="fa fa-book fa-5x"></i>
+                        </div>
+                        <h3>Bài giảng</h3>
+                    </div>
+                </a>
+                <!-- Assignments -->
+                <a href="#" onclick="openLink('assignments');">
+                    <div class="col-sm-4 wow animated fadeInRight">
+                        <div class="special-icon">
+                            <i class="fa fa-pencil fa-5x"></i>
+                        </div>
+                        <h3>Bài tập</h3>
+                    </div>
+                </a>
+            </div> <!-- /.row -->
+
+            <div class="row">
+                <!-- Page -->
+
+                <a href="#" onclick="openLink('modules');">
+                    <div class="col-sm-4 wow animated fadeInLeft">
+                        <div class="special-icon">
+                            <i class="fa fa-list fa-5x"></i>
+                        </div>
+                        <h3>Modules</h3>
+                        <!-- <p>
+
+                        </p> -->
+                    </div>
+                </a>
+                <!-- MS Teams -->
+                <a href="#" onclick="openLink('teams');">
+                    <div class="col-sm-4 animation-box wow bounceIn animated">
+                        <div class="special-icon">
+                            <i class="fa fa-windows fa-5x"></i>
+                        </div>
+                        <h3>Microsoft Teams</h3>
+                    </div>
+                </a>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/groups/877354073624782/" target="blank">
+                    <div class="col-sm-4 wow animated fadeInRight">
+                        <div class="special-icon">
+                            <i class="fa fa-facebook-square fa-5x"></i>
+                        </div>
+                        <h3>Facebook lớp</h3>
+                    </div>
+                </a>
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /#speciality -->
+
+
+    <!-- HHHHHHHHHHHHHHHHHH      Giảng viên      HHHHHHHHHHHHHHHH -->
+
+    <div id="team" class="wrapper">
+        <div class="container-fluid">
+            <h2 class="animation-box wow bounceIn animated">GIẢNG VIÊN</h2>
+            <div class="virticle-line"></div>
+            <div class="circle"></div>
+            <div class="row">
+                <div class="col-md-4 col-sm-4 wow animated fadeInLeft">
+
+                </div>
+                <div class="col-md-4 col-sm-4 animation-box wow bounceIn animated">
+                    <!-- <img src="img/gv.jpg" alt="team"> -->
+                    <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/278274465_4605365172902375_3176642403772887154_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-TYV5qyMqukAX9-K9qq&_nc_oc=AQlRmRcdK6Qb6Im2RcfqcXDiKyHs9w1Vd8gktl3sOE6uqjzaiNhhKIaMlRr1nlusCs3CyztJS2wmUsJZRt0yz-0z&tn=fp1-O0en5u4GWkY-&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfAC-zRjot_kGgDWVp_6oi0qTGP37mxSP2Jv0rtQQaryYQ&oe=63F1856F"
+                        alt="team">
+                    <h3>Đỗ Phúc Thịnh</h3>
+                    <p>THẠC SĨ</p>
+                    <div class="img-hover">
+                        <ul class="social-icon text-center">
+                            <li class="wow animated fadeInLeft facebook"><a
+                                    href="https://www.facebook.com/phucthinhdo.dntu"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="wow animated fadeInRight linkedin"><a href="https://zalo.me/0847088880"><i
+                                        class="fa fa-phone"></i></a>
+                            </li>
+                            <li class="wow animated fadeInRight googleplus"><a
+                                    href="https://scholar.google.com/citations?user=3NsJ--wAAAAJ"><i
+                                        class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 wow animated fadeInRight">
+
+                </div>
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /#team -->
+
+    <!-- HHHHHHHHHHHHHHHHHH        Contact Us          HHHHHHHHHHHHHHHH -->
+    <section id="contact" class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 contact-item col-sm-6 col-xs-12 wow animated fadeInLeft">
+                    <a href="https://www.facebook.com/phucthinhdo.dntu" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <h3>Facebook</h3>
+                    <p class="contact">
+                        Thinh Do <br>
+                        phucthinhdo.dntu
+                    </p>
+                </div>
+                <div class="col-md-3 contact-item col-sm-6 col-xs-12 wow animated fadeInLeft">
+                    <a href="https://zalo.me/0847088880" target="_blank">
+                        <i class="fa fa-phone"></i>
+                    </a>
+                    <h3>Phone</h3>
+                    <p class="contact">
+                        Mobile: 0847 088880 <br>
+                        Zalo: 0847 088880
+                    </p>
+                </div>
+                <div class="col-md-3 contact-item col-sm-6 col-xs-12 wow animated fadeInRight">
+                    <a href="https://scholar.google.com/citations?user=3NsJ--wAAAAJ" target="_blank">
+                        <i class="fa fa-user"></i>
+                    </a>
+                    <h3>Google Scholar</h3>
+                    <p class="contact">
+                        Phuc Thinh Do
+                    </p>
+                </div>
+                <div class="col-md-3 contact-item col-sm-6 col-xs-12 wow animated fadeInRight">
+                    <a href="mailto:dophucthinh@dntu.edu.vn" target="_blank">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                    <h3>Email Address</h3>
+                    <p class="contact">
+                        dophucthinh@dntu.edu.vn
+                    </p>
+                </div>
+            </div> <!-- /.row -->
+
+        </div> <!-- /.container -->
+    </section> <!-- /#contact -->
+
+    <!-- HHHHHHHHHHHHHHHHHH      Screenshots    HHHHHHHHHHHHHHHH -->
+
+    <section id="gallery" class="wrapper">
+        <div class="container">
+            <h2 class="animation-box wow bounceIn animated">ĐỒ ÁN CÁC KHÓA</h2>
+            <div class="virticle-line"></div>
+            <div class="circle"></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="screenshots" class="owl-carousel owl-theme">
+                        <a href="img/1.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/1.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                        <a href="img/2.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/2.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                        <a href="img/3.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/3.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                        <a href="img/4.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/4.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                        <a href="img/1.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/1.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                        <a href="img/2.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/2.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                        <a href="img/3.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/3.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                        <a href="img/4.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/4.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                        <a href="img/1.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/1.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                        <a href="img/2.jpg" class="item wow flipInY animated animated"
+                            data-lightbox-gallery="screenshots">
+                            <img src="img/2.jpg" class="img_res wow animated zoomIn" alt="">
+                        </a>
+                    </div>
+                    <div class="customNavigation row">
+                        <a class="btn prev gallery-nav wow animated bounceInLeft"><i class="fa fa-chevron-left"></i></a>
+                        <a class="btn next gallery-nav wow animated bounceInRight"><i
+                                class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- HHHHHHHHHHHHHHHHHH        Open/Close          HHHHHHHHHHHHHHHH -->
+    <div class="overlay overlay-hugeinc">
+        <button type="button" class="overlay-close">Close</button>
+        <nav>
+            <ul>
+                <li class="hideit"><a href="#header">Home</a></li>
+                <li class="hideit"><a href="#speciality">Nội dung</a></li>
+                <li class="hideit"><a href="#gallery">Đồ án các khóa</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <!--<script src="js/jquery.ajaxchimp.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".hideit").click(function () {
+                $(".overlay").hide();
+            });
+            $("#trigger-overlay").click(function () {
+                $(".overlay").show();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            var kawa = $('.top-bar');
+            var back = $('#back-to-top');
+            function scroll() {
+                if ($(window).scrollTop() > 700) {
+                    kawa.addClass('fixed');
+                    back.addClass('show-top');
+
+                } else {
+                    kawa.removeClass('fixed');
+                    back.removeClass('show-top');
+                }
+            }
+
+            document.onscroll = scroll;
+        });
+    </script>
+    <!--HHHHHHHHHHHH        Smooth Scrooling     HHHHHHHHHHHHHHHH-->
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
